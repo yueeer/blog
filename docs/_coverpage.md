@@ -10,5 +10,5 @@
 </div>
 
 [我的GitHub](<https://github.com/yueeer>)
-[学长岐山凤鸣的blog](<www.ecohnoch.cn/>)
+[学长岐山凤鸣的blog](<http://www.ecohnoch.cn/>)
 [start](README.md)
