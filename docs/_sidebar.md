@@ -1,4 +1,4 @@
-# [我的文档库](README.md)
+# 我的文档库
 
 - What Do We Understand About Convolutional Networks?
 
