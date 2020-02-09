@@ -4,6 +4,6 @@
 
 > 厦门大学图书馆: https://library.xmu.edu.cn/index.htm
 
-#### Contents
+#### Contents{docsify-ignore-all}
 ##### 1.What Do We Understand About Convolutional Networks?
 ##### 2.神经网络性能分析
