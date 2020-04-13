@@ -311,5 +311,3 @@ Google搜寻引擎查索关键字‘**filetype:pdf**’，表示你只想要PDF�
 
 学术研究不会止于两个现象之间表面上的因果关系，而会深入探讨因和果之间，每一个演变步骤的机制和原理；以及在其他干扰因素或假设条件有所变化时，因果关系的可能改变。
 
-
-<script type="text/javascript" src="love.js"></script>
