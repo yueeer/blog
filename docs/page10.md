@@ -1,7 +1,7 @@
 <center><img src="https://s2.ax1x.com/2019/12/21/QvumPx.jpg" width="20%"></center>
 
 
-## 设计心理学 总结
+## 设计心理学 总结上
 
 - “诺曼门”
 
