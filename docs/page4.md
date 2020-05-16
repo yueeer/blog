@@ -1,4 +1,4 @@
-<center><img src="https://s2.ax1x.com/2019/12/21/QvumPx.jpg" width="20%"></center>
+<center><img src="https://i.loli.net/2020/05/17/cZIP7ARlLJtXwkv.png" width="20%"></center>
 
 ## Chapter 4 Current status
 本章将介绍在尝试理解不同的 CNN 层所学习的内容上的当前趋势。同时，我们还将重点说明这些趋势方面仍有待解决的问题。
