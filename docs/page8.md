@@ -1,5 +1,4 @@
-
-<center><img src="https://s2.ax1x.com/2019/12/21/QvumPx.jpg" width="20%"></center>
+<center><img src="https://i.loli.net/2020/05/17/cZIP7ARlLJtXwkv.png" width="20%"></center>
 
 ## 研究生完全求生手册 总结上
 作为一个马上要读研究生，开始壮烈（悲惨）科研生活的小白，发现了彭明辉教授的《研究生完全求生手册》，自己看不好繁体字，阅读起来也不是很流畅，但是希望能总结记录下来，要是能给和我一样迷茫的朋友一点点方便，我也就非常开心啦。
