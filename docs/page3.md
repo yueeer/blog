@@ -1,4 +1,4 @@
-<center><img src="https://s2.ax1x.com/2019/12/21/QvumPx.jpg" width="20%"></center>
+<center><img src="https://i.loli.net/2020/05/17/cZIP7ARlLJtXwkv.png" width="20%"></center>
 
 ## Chapter 3 理解Convnet构建块
 本章研究典型的CNN中各处理层的作用和意义。特别是，将从理论和生物学的角度介绍ConvNet各种组件。每种组件的介绍后面都有discussion，总结了我们当前的理解水平。
