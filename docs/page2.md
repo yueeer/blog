@@ -1,4 +1,4 @@
-<center><img src="https://s2.ax1x.com/2019/12/21/QvumPx.jpg" width="20%"></center>
+<center><img src="https://i.loli.net/2020/05/17/cZIP7ARlLJtXwkv.png" width="20%"></center>
 
 ## Chapter 2 Multilayer Networks
 本章简要概述了计算机视觉中使用的最著名的多层体系结构。本章的目的是为本文其余部分的详细介绍和目前人们对卷积网络在视觉信息处理上的详细应用打下基础。
