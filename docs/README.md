@@ -13,15 +13,15 @@ contact me~
 本站利用**docsify**搭建，docsify 是一个动态生成文档网站的工具，只需要创建一个index.html 就可以开始写文档而且直接部署在 GitHub Pages。docsify官方文档可见下面链接。
 创建自己的网站的成功离不开学长岐山凤鸣的耐心指导，欢迎访问学长的blog~
 
-### 目录
-###### [1.What Do We Understand About Convolutional Networks?](page1.md)
-###### [2.神经网络性能分析](page5.md)
-###### [3.典型的信息度量方法](page7.md)
-###### [4.深度学习的主要流程](page11.md)
-###### [5.【转载】如何通俗地理解卷积](page12.md)
-###### [6.《百面机器学习》总结](a.md)
-###### [7.《研究生完全求生手册》 总结](page8.md)
-###### [8.《设计心理学》 总结](page10.md)
+###### 目录
+[1.What Do We Understand About Convolutional Networks?](page1.md)
+[2.神经网络性能分析](page5.md)
+[3.典型的信息度量方法](page7.md)
+[4.深度学习的主要流程](page11.md)
+[5.【转载】如何通俗地理解卷积](page12.md)
+[6.《百面机器学习》总结](a.md)
+[7.《研究生完全求生手册》 总结](page8.md)
+[8.《设计心理学》 总结](page10.md)
 
 ### 友情链接
 [我的GitHub](<https://github.com/yueeer>) &emsp; [学长岐山凤鸣的blog](<http://www.ecohnoch.cn/>) &emsp; [docsify官方文档](<https://docsify.js.org/>)
