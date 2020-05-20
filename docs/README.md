@@ -13,7 +13,7 @@ contact me~
 本站利用**docsify**搭建，docsify 是一个动态生成文档网站的工具，只需要创建一个index.html 就可以开始写文档而且直接部署在 GitHub Pages。docsify官方文档可见下面链接。
 创建自己的网站的成功离不开学长岐山凤鸣的耐心指导，欢迎访问学长的blog~
 
-###### 目录
+### 目录
 [1.What Do We Understand About Convolutional Networks?](page1.md)\
 [2.神经网络性能分析](page5.md)\
 [3.典型的信息度量方法](page7.md)\
