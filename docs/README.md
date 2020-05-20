@@ -16,20 +16,23 @@ contact me~
 ### 目录
 
 <font color="black">
-[1.What Do We Understand About Convolutional Networks?](page1.md)\
-[2.神经网络性能分析](page5.md)\
-[3.典型的信息度量方法](page7.md)\
-[4.深度学习的主要流程](page11.md)\
-[5.【转载】如何通俗地理解卷积](page12.md)\
-[6.《百面机器学习》总结](a.md)\
-[7.《研究生完全求生手册》 总结](page8.md)\
+[1.What Do We Understand About Convolutional Networks?](page1.md)
+  
+[2.神经网络性能分析](page5.md)
+
+[3.典型的信息度量方法](page7.md)
+
+[4.深度学习的主要流程](page11.md)
+
+[5.【转载】如何通俗地理解卷积](page12.md)
+
+[6.《百面机器学习》总结](a.md)
+
+[7.《研究生完全求生手册》 总结](page8.md)
+
 [8.《设计心理学》 总结](page10.md)
 </font>
 
 ### 友情链接
-
-<div style='display: none'>
-[![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/Q-Angelo/Nodejs-Roadmap) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/Q-Angelo/Nodejs-Roadmap)
-</div>
 
 [我的GitHub](<https://github.com/yueeer>) &emsp; [学长岐山凤鸣的blog](<http://www.ecohnoch.cn/>) &emsp; [docsify官方文档](<https://docsify.js.org/>) &emsp; [我的csdn](https://blog.csdn.net/weixin_42575796) &emsp; [厦门大学图书馆](https://library.xmu.edu.cn/index.htm)
