@@ -15,6 +15,7 @@ contact me~
 
 ### 目录
 
+<font color="black">
 [1.What Do We Understand About Convolutional Networks?](page1.md)\
 [2.神经网络性能分析](page5.md)\
 [3.典型的信息度量方法](page7.md)\
@@ -23,6 +24,7 @@ contact me~
 [6.《百面机器学习》总结](a.md)\
 [7.《研究生完全求生手册》 总结](page8.md)\
 [8.《设计心理学》 总结](page10.md)
+</font>
 
 ### 友情链接
 
