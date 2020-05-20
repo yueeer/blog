@@ -25,4 +25,9 @@ contact me~
 [8.《设计心理学》 总结](page10.md)
 
 ### 友情链接
+
+<div style='display: none'>
+[![stars](https://badgen.net/github/stars/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/Q-Angelo/Nodejs-Roadmap) [![forks](https://badgen.net/github/forks/Q-Angelo/Nodejs-Roadmap?icon=github&color=4ab8a1)](https://github.com/Q-Angelo/Nodejs-Roadmap)
+</div>
+
 [我的GitHub](<https://github.com/yueeer>) &emsp; [学长岐山凤鸣的blog](<http://www.ecohnoch.cn/>) &emsp; [docsify官方文档](<https://docsify.js.org/>) &emsp; [我的csdn](https://blog.csdn.net/weixin_42575796) &emsp; [厦门大学图书馆](https://library.xmu.edu.cn/index.htm)
