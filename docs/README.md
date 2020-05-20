@@ -26,6 +26,4 @@ contact me~
 ### 友情链接
 [我的GitHub](<https://github.com/yueeer>) &emsp; [学长岐山凤鸣的blog](<http://www.ecohnoch.cn/>) &emsp; [docsify官方文档](<https://docsify.js.org/>)
 
-> CSDN: https://blog.csdn.net/weixin_42575796
-
-> 厦门大学图书馆: https://library.xmu.edu.cn/index.htm
+[我的csdn](https://blog.csdn.net/weixin_42575796) &emsp; [厦门大学图书馆](https://library.xmu.edu.cn/index.htm)
