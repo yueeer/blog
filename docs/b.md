@@ -129,10 +129,13 @@ $$
 都不正确。黄色为实验组，棕色为对照组\
 方法1没有区分是否为美国用户，实验组和对照组的实验结果均有稀释；\
 <img src="https://i.loli.net/2020/06/08/oy8jXeZY9vIhPql.png" height="150" width="150">
+
 方法2的实验组选取无误，并将其余所有用户划分为对照组，导致对照组的结果被稀释；\
 <img src="https://i.loli.net/2020/06/08/j9sX8FE3fOP7DLg.png" height="150" width="150">
+
 方法3的对照组存在偏差。\
 <img src="https://i.loli.net/2020/06/08/P4AszECSNnLmaXW.png" height="150" width="150">
+
 正确的做法是将所有美国用户根据user_id个位数划分为试验组合对照组\
 <img src="https://i.loli.net/2020/06/08/KAOGyf4gxa7BbNc.png" height="150" width="150">
 
