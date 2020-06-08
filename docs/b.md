@@ -40,7 +40,9 @@ ROC曲线是Receiver Operating Characteristic Curve的简称，中文名为“�
 
 ROC曲线的横坐标为假阳性率（False Positive Rate，FPR）；纵坐标为真阳性率（True Positive Rate，TPR）。FPR和TPR的计算方法分别为
 $$
-FPR=\frac{FP}{N}$$$$
+FPR=\frac{FP}{N}
+$$
+$$
 TPR=\frac{TP}{P}
 $$
 TP是P个正样本中被分类器预测为正的个数，FP是N个负样本中被分类器预测为正的个数。
