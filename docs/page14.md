@@ -218,12 +218,14 @@ git push (-f) origin master
 
 ##### 5.1创建和合并分支
 Git用master指向最新的提交，每次提交，master分支都会向前移动一步。
+
 <img src="https://i.loli.net/2020/07/04/qZjY4NOsatXCzen.png" width="250" height="100" align="center">
 
 1）创建新的分支dev\
 Git新建了一个指针指向master相同的提交，再把HEAD指向dev，就表示当前分支在dev上
 
 <img src="https://i.loli.net/2020/07/04/SyTcRtiAKdq6kvg.png" width="280" height="120" align="center">
+
 ```
 git checkout -b dev 或 git switch -c dev#创建并切换到dev分支
 ```
@@ -238,7 +240,9 @@ git branch
 * dev
   master
 ```
+
 2)在dev分支进行修改和提交(vim + add + commit)
+
 <img src="https://i.loli.net/2020/07/04/qFm15cClJNMw7ty.png" width="300" height="150" align="center">
 
 此时如果回到master分支查看文件，文件还是修改前的状态
@@ -246,6 +250,7 @@ git branch
 3）merge master and dev
 
 <img src="https://i.loli.net/2020/07/04/GxlPWLAaptzcY4J.png" width="300" height="150" align="center">
+
 ```
 git switch master #切换到master分支
 git merge dev #合并指定分支到当前分支
@@ -255,12 +260,14 @@ git merge dev #合并指定分支到当前分支
 4)删除dev分支
 
 <img src="https://i.loli.net/2020/07/04/zBrbfKk5s1DIeRq.png" width="280" height="120" align="center">
+
 ```
 git branch -d dev
 ```
 ##### 5.2解决冲突
 
 master分支和feature1分支各自都分别有新的提交，变成了这样
+
 <img src="https://i.loli.net/2020/07/04/nChEqwVI8p52vSl.png" width="300" height="180" align="center">
 
 此时进行合并会有冲突，必须手动解决冲突。可以直接查看文件中的内容
@@ -273,6 +280,7 @@ Creating a new branch is quick AND simple.
 >>>>>>> feature1
 ```
 手动修改master中的部分再add,commit,merge,如图所示
+
 <img src="https://i.loli.net/2020/07/04/dr24QltNZ8eHzE9.png" width="320" height="200" align="center">
 
 用git log --graph可以看到分支的合并情况
