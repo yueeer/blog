@@ -4,11 +4,11 @@
 学习于黑马程序员pink老师的教程
 
 Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行为( Behavior )三个方面。
-<table border="1" cellspacing="0">
+<table border="1" cellspacing="0"  border-color=black>
         <tr>
             <th>构成</th><th>作用</th>
         </tr>
-        <tr>
+        <tr bgcolor=rgb(240, 248, 255)>
             <td>结构</td><td>结构用于对网页元素进行整理和分类，现阶段主要学的是HTML.</td>
         </tr>
         <tr>
