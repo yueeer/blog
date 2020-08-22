@@ -49,16 +49,16 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
             <th>语义</th><th>标签</th><th>说明</th>
         </tr>
         <tr>
-            <td>加粗</td><td>`<strong></strong>`或者`<b></b>`</td><td>更推荐使用<strong></strong>，语义更强烈<\td>
+            <td>加粗</td><td>`<strong></strong>`或者`<b></b>`</td><td>更推荐使用<strong></strong>，语义更强烈</td>
         </tr>
         <tr>
-            <td>倾斜</td><td>`<em></em>`或者`<i></i>`</td><td>更推荐使用`<em></em>`，语义更强烈<\td>
+            <td>倾斜</td><td>`<em></em>`或者`<i></i>`</td><td>更推荐使用`<em></em>`，语义更强烈</td>
         </tr>
         <tr>
-            <td>删除线</td><td>`<del></del>`或者`<b></b>`</td><td>更推荐使用`<del></del>`，语义更强烈<\td>
+            <td>删除线</td><td>`<del></del>`或者`<b></b>`</td><td>更推荐使用`<del></del>`，语义更强烈</td>
         </tr>
         <tr>
-            <td>下划线</td><td>`<ins></ins>`或者`<u></u>`</td><td>更推荐使用`<ins></ins>`，语义更强烈<\td>
+            <td>下划线</td><td>`<ins></ins>`或者`<u></u>`</td><td>更推荐使用`<ins></ins>`，语义更强烈</td>
         </tr>
 </table>
 
@@ -81,19 +81,19 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
             <th>属性</th><th>属性值</th><th>说明</th>
         </tr>
         <tr>
-            <td>alt</td><td>文本</td><td>替换文本。图像不能显示的文字<\td>
+            <td>alt</td><td>文本</td><td>替换文本。图像不能显示的文字</td>
         </tr>
         <tr>
-            <td>title</td><td>文本</td><td>提示文本。鼠标放到图像上，显示的文字<\td>
+            <td>title</td><td>文本</td><td>提示文本。鼠标放到图像上，显示的文字</td>
         </tr>
         <tr>
-            <td>width</td><td>像素</td><td>只修改一个的话，另一个会等比例缩放<\td>
+            <td>width</td><td>像素</td><td>只修改一个的话，另一个会等比例缩放</td>
         </tr>
         <tr>
-            <td>height</td><td>像素</td><td>只修改一个的话，另一个会等比例缩放<\td>
+            <td>height</td><td>像素</td><td>只修改一个的话，另一个会等比例缩放</td>
         </tr>
         <tr>
-            <td>border</td><td>像素</td><td>图像边框的粗细<\td>
+            <td>border</td><td>像素</td><td>图像边框的粗细</td>
         </tr>
 </table>
 
@@ -146,22 +146,22 @@ target：_self为默认值，_blank为在新窗口中打开。
             <th>属性名</th><th>属性值</th><th>说明</th>
         </tr>
         <tr>
-            <td>align</td><td>eft center right</td><td>规定表格相对周围元素的对齐方式<\td>
+            <td>align</td><td>eft center right</td><td>规定表格相对周围元素的对齐方式</td>
         </tr>
         <tr>
-            <td>border</td><td>1或""</td><td>规定表格单元是否拥有边框，默认为""，表示没有边框<\td>
+            <td>border</td><td>1或""</td><td>规定表格单元是否拥有边框，默认为""，表示没有边框</td>
         </tr>
         <tr>
-            <td>cellpadding</td><td>像素值</td><td>规定单元边沿与其内容之间的空白，默认1像素<\td>
+            <td>cellpadding</td><td>像素值</td><td>规定单元边沿与其内容之间的空白，默认1像素</td>
         </tr>
         <tr>
-            <td>cellspacing</td><td>像素值</td><td>规定单元格之间的空白，默认2像素<\td>
+            <td>cellspacing</td><td>像素值</td><td>规定单元格之间的空白，默认2像素</td>
         </tr>
         <tr>
-            <td>width</td><td>像素值或百分比</td><td>规定表格的宽度<\td>
+            <td>width</td><td>像素值或百分比</td><td>规定表格的宽度</td>
         </tr>
         <tr>
-            <td>height</td><td>像素值或百分比</td><td>规定表格的高度<\td>
+            <td>height</td><td>像素值或百分比</td><td>规定表格的高度</td>
         </tr>
 </table>
 
