@@ -5,6 +5,22 @@
 
 Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行为( Behavior )三个方面。
 
+<table><tbody>
+    <tr>
+        <th>构成</th><th>作用</th>
+    </tr>
+    <tr>
+        <td>结构</td><td bgcolor="GhostWhite">结构用于对网页元素进行整理和分类，现阶段主要学的是HTML.</td>
+    </tr>
+    <tr>
+        <td>表现</td><td bgcolor="GhostWhite">表现用于设置网页元素的版式、颜色、大小等外观样式，主要指的是CSS.</td>
+    </tr>
+    <tr>
+        <td>行为</td><td bgcolor="GhostWhite">行为是指网页模型的定义及交互的编写，现阶段主要学的是Javascript.</td>
+    </tr>
+</table>
+
+
 | 构成 | 作用 |
 |--|--|
 | 结构  | 结构用于对网页元素进行整理和分类，现阶段主要学的是HTML. |
