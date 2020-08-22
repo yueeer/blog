@@ -5,7 +5,7 @@
 
 Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行为( Behavior )三个方面。
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0px"><tbody>
+<table bgcolor="GhostWhite" border="1" cellspacing="0px">
         <tr>
             <th>构成</th><th>作用</th>
         </tr>
@@ -44,7 +44,7 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
 ```
 #### 1.格式标签
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0px"><tbody>
+<table bgcolor="GhostWhite" border="1" cellspacing="0px">
         <tr>
             <th>语义</th><th>标签</th><th>说明</th>
         </tr>
@@ -76,7 +76,7 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
 ```
 图像标签的其他属性:
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0px"><tbody>
+<table bgcolor="GhostWhite" border="1" cellspacing="0px">
         <tr>
             <th>属性</th><th>属性值</th><th>说明</th>
         </tr>
@@ -141,7 +141,7 @@ target：_self为默认值，_blank为在新窗口中打开。
 
 - 表格属性 (写在table标签里，实际开发通过CSS来设置.）
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0px"><tbody>
+<table bgcolor="GhostWhite" border="1" cellspacing="0px">
         <tr>
             <th>属性名</th><th>属性值</th><th>说明</th>
         </tr>
