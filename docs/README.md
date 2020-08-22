@@ -1,6 +1,6 @@
 <center><img src="https://i.loli.net/2020/05/17/cZIP7ARlLJtXwkv.png" width="20%"></center>
 
-### 关于我 {docsify-ignore-all}
+### 关于我{docsify-ignore-all}
 
 厦门大学学生~
 一位坚信好记性不如烂笔头的小朋友
