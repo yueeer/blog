@@ -5,7 +5,7 @@
 
 Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行为( Behavior )三个方面。
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0px">
+<table bgcolor="GhostWhite" border="1" cellspacing="0">
         <tr>
             <th>构成</th><th>作用</th>
         </tr>
@@ -19,12 +19,6 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
             <td>行为</td><td>行为是指网页模型的定义及交互的编写，现阶段主要学的是Javascript.</td>
         </tr>
 </table>
-
-| 构成 | 作用 |
-|--|--|
-| 结构  | 结构用于对网页元素进行整理和分类，现阶段主要学的是HTML. |
-| 表现  |  表现用于设置网页元素的版式、颜色、大小等外观样式，主要指的是CSS |
-| 行为 |  行为是指网页模型的定义及交互的编写，现阶段主要学的是Javascript |
 
 主要结构
 
@@ -62,14 +56,6 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
         </tr>
 </table>
 
-
-| 语义 | 标签 | 说明 |
-|--|--|--|
-| 加粗 | `<strong></strong>`或者`<b></b>`  | 更推荐使用<strong></strong>，语义更强烈|
-| 倾斜 | `<em></em>`或者`<i></i>`  | 更推荐使用`<em></em>`，语义更强烈|
-| 删除线 | `<del></del>`或者`<b></b>`  | 更推荐使用`<del></del>`，语义更强烈|
-| 下划线 | `<ins></ins>`或者`<u></u>`  | 更推荐使用`<ins></ins>`，语义更强烈|
-
 #### 2.图像
 ```html
 <img src="图像的路径" />
@@ -96,14 +82,6 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
             <td>border</td><td>像素</td><td>图像边框的粗细</td>
         </tr>
 </table>
-
-| 属性 |属性值 |说明|
-|--|--|--|
-| alt | 文本 | 替换文本。图像不能显示的文字|
-| title | 文本 | 提示文本。鼠标放到图像上，显示的文字|
-| width | 像素 | 只修改一个的话，另一个会等比例缩放|
-| height | 像素 | 只修改一个的话，另一个会等比例缩放|
-| border | 像素 | 图像边框的粗细|
 
 #### 3.链接
 ```html
@@ -164,15 +142,6 @@ target：_self为默认值，_blank为在新窗口中打开。
             <td>height</td><td>像素值或百分比</td><td>规定表格的高度</td>
         </tr>
 </table>
-
-|属性名| 属性值| 描述|
-|--|--|--|
-|align |left. center. right |规定表格相对周围元素的对齐方式。
-|border |1或"“ |规定表格单元是否拥有边框，默认为""，表示没有边框
-|cellpadding |像素值 |规定单元边沿与其内容之间的空白，默认1像素。
-|cellspacing |像素值 |规定单元格之间的空白，默认2像素。
-|width |像素值或百分比| 规定表格的宽度。
-|height |像素值或百分比| 规定表格的高度。
 
 -  分别用: <thead>标签表格的头部区域、<tbody>标签表格的主体区域.
 
