@@ -5,20 +5,7 @@
 
 Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行为( Behavior )三个方面。
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0">
-        <tr>
-            <th>构成</th><th>作用</th>
-        </tr>
-        <tr>
-            <td>结构</td><td>结构用于对网页元素进行整理和分类，现阶段主要学的是HTML.</td>
-        </tr>
-        <tr>
-            <td>表现</td><td>表现用于设置网页元素的版式、颜色、大小等外观样式，主要指的是CSS.</td>
-        </tr>
-        <tr>
-            <td>行为</td><td>行为是指网页模型的定义及交互的编写，现阶段主要学的是Javascript.</td>
-        </tr>
-</table>
+<img src="https://i.loli.net/2020/08/23/YFdVuDczQirUOXb.png"  width="550px" height="170px">
 
 主要结构
 
@@ -38,23 +25,7 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
 ```
 #### 1.格式标签
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0px">
-        <tr>
-            <th>语义</th><th>标签</th><th>说明</th>
-        </tr>
-        <tr>
-            <td>加粗</td><td>`<strong></strong>`或者`<b></b>`</td><td>更推荐使用<strong></strong>，语义更强烈</td>
-        </tr>
-        <tr>
-            <td>倾斜</td><td>`<em></em>`或者`<i></i>`</td><td>更推荐使用`<em></em>`，语义更强烈</td>
-        </tr>
-        <tr>
-            <td>删除线</td><td>`<del></del>`或者`<b></b>`</td><td>更推荐使用`<del></del>`，语义更强烈</td>
-        </tr>
-        <tr>
-            <td>下划线</td><td>`<ins></ins>`或者`<u></u>`</td><td>更推荐使用`<ins></ins>`，语义更强烈</td>
-        </tr>
-</table>
+<img src="https://i.loli.net/2020/08/23/FznhT7wQIoSL1MU.png"  width="600px" height="200px">
 
 #### 2.图像
 ```html
@@ -62,26 +33,7 @@ Web标准的构成主要包括结构( Structure)、表现 ( Presentation )和行
 ```
 图像标签的其他属性:
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0px">
-        <tr>
-            <th>属性</th><th>属性值</th><th>说明</th>
-        </tr>
-        <tr>
-            <td>alt</td><td>文本</td><td>替换文本。图像不能显示的文字</td>
-        </tr>
-        <tr>
-            <td>title</td><td>文本</td><td>提示文本。鼠标放到图像上，显示的文字</td>
-        </tr>
-        <tr>
-            <td>width</td><td>像素</td><td>只修改一个的话，另一个会等比例缩放</td>
-        </tr>
-        <tr>
-            <td>height</td><td>像素</td><td>只修改一个的话，另一个会等比例缩放</td>
-        </tr>
-        <tr>
-            <td>border</td><td>像素</td><td>图像边框的粗细</td>
-        </tr>
-</table>
+<img src="https://i.loli.net/2020/08/23/yRvDNWF9ncXq3jY.png"  width="470px" height="220px">
 
 #### 3.链接
 ```html
@@ -119,29 +71,7 @@ target：_self为默认值，_blank为在新窗口中打开。
 
 - 表格属性 (写在table标签里，实际开发通过CSS来设置.）
 
-<table bgcolor="GhostWhite" border="1" cellspacing="0px">
-        <tr>
-            <th>属性名</th><th>属性值</th><th>说明</th>
-        </tr>
-        <tr>
-            <td>align</td><td>eft center right</td><td>规定表格相对周围元素的对齐方式</td>
-        </tr>
-        <tr>
-            <td>border</td><td>1或""</td><td>规定表格单元是否拥有边框，默认为""，表示没有边框</td>
-        </tr>
-        <tr>
-            <td>cellpadding</td><td>像素值</td><td>规定单元边沿与其内容之间的空白，默认1像素</td>
-        </tr>
-        <tr>
-            <td>cellspacing</td><td>像素值</td><td>规定单元格之间的空白，默认2像素</td>
-        </tr>
-        <tr>
-            <td>width</td><td>像素值或百分比</td><td>规定表格的宽度</td>
-        </tr>
-        <tr>
-            <td>height</td><td>像素值或百分比</td><td>规定表格的高度</td>
-        </tr>
-</table>
+<img src="https://i.loli.net/2020/08/23/AcQ8zkXaCj4YP7U.png"  width="600px" height="250px">
 
 -  分别用: <thead>标签表格的头部区域、<tbody>标签表格的主体区域.
 
