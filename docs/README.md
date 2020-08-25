@@ -25,8 +25,8 @@ contact me~
 [8.《研究生完全求生手册》 总结](page8.md)\
 [9.《设计心理学》 总结](page10.md)\
 [10.《人人都是产品经理》 总结](pagerr.md)\
-[11.HTML+HTML5基础总结](html.md)\
-[12.CSS+CSS3基础总结](css1.md)
+[11.HTML+HTML5总结](html.md)\
+[12.CSS+CSS3总结](css1.md)\
 [13.网站制作](web.md)
 
 ### 友情链接
