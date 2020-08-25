@@ -231,17 +231,17 @@ Bingo!\
 ### 各种有用的信息
 #### 一些值得看的博客
 
-UCDChina (http://ucdchina.com/)，“以用户为中心的设计”的圣地，国内的交互设计师、用户体验师基本都在里面混。\
-ExcelPro的图表博客(http://excelpro.blog.sohu.com/)，从这里学到很多Excel、PPT的技巧，以及更多画图表的好方法。\
-人月神话(http://blog.sina.com.cn/cmmi/)，主要是项目管理、CMMI、PMP、产品管理相关的内容。\
-刘未鹏IMind Hacks (http://mindhacks.cn/)，博主对思维方法的分享不止是让人获得知识，而能让人聪明起来。探讨的话题还有心理学、认知科学、概率论、人工智能等。\
-褪墨(http://www.mifengtd.cn/)，教你如何做时间管理，用哪些方法和工具GTD ( get things done),对个人规划能力的提高很有帮助。\
-左岸读书(http://www.zreading.cn/)，这里有各种各样的知识，杂，但是精。\
-战隼的学习探索（http://www.read.org.cn/)，可以学到如何学习，如何记忆，如何阅读，等等。\
-译言（http://www.yeeyan.org/)，翻译国外技术与创业的文章。\
-可能吧（http://www.kenengba.com/),趣味互联网生活。\
-FT中文网(http://www.ftchinese.com/),FT是Financial Time，大多数都是经济方面的译文，看看外国人怎么评论我们。\
-疯狂的设计（http://hi.baidu.com/madesign)，百度前首席设计师郭宇郭大侠的博
+[UCDChina](http://ucdchina.com/)，“以用户为中心的设计”的圣地，国内的交互设计师、用户体验师基本都在里面混。\
+[ExcelPro的图表博客](http://excelpro.blog.sohu.com/)，从这里学到很多Excel、PPT的技巧，以及更多画图表的好方法。\
+[人月神话](http://blog.sina.com.cn/cmmi/)，主要是项目管理、CMMI、PMP、产品管理相关的内容。\
+[刘未鹏IMind Hacks](http://mindhacks.cn/)，博主对思维方法的分享不止是让人获得知识，而能让人聪明起来。探讨的话题还有心理学、认知科学、概率论、人工智能等。\
+[褪墨](http://www.mifengtd.cn/)，教你如何做时间管理，用哪些方法和工具GTD ( get things done),对个人规划能力的提高很有帮助。\
+[左岸读书](http://www.zreading.cn/)，这里有各种各样的知识，杂，但是精。\
+[战隼的学习探索](http://www.read.org.cn/)，可以学到如何学习，如何记忆，如何阅读，等等。\
+[译言](http://www.yeeyan.org/)，翻译国外技术与创业的文章。\
+[可能吧](http://www.kenengba.com/),趣味互联网生活。\
+[FT中文网](http://www.ftchinese.com/),FT是Financial Time，大多数都是经济方面的译文，看看外国人怎么评论我们。\
+[疯狂的设计](http://hi.baidu.com/madesign)，百度前首席设计师郭宇郭大侠的博
 
 #### —些值得读的图书
 
