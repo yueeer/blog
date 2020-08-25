@@ -62,13 +62,13 @@
 
   - [第6章 ：产品经理的自我修养 + 附录](pagerr5.md)
 
-- HTML基础总结
+- HTML总结
 
   - [HTML基础总结](html.md)
 
   - [HTML5](html2.md)
 
-- CSS基础总结
+- CSS总结
 
   - [CSS基础总结Ⅰ](css1.md)
 
