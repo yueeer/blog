@@ -155,7 +155,7 @@ name: 用于指定表单的名称，以区分同一个页面中的多个表单�
 `<input>`输入表单元素，包含一个type属性,根据不同的type,输入字段拥有很多种形式。
 
 ```html
-<input type="属性值" />
+<input type="属性值" >
 ```
 
 <img src="https://i.loli.net/2020/08/22/4XKqHxkPEGct7a5.png"  width="500px" height="300px">
