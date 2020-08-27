@@ -178,7 +178,7 @@ name: 用于指定表单的名称，以区分同一个页面中的多个表单�
 
 <input type="file">
 
-password: <input type="password"></input><br>
+password: <input type="password"><br>
 
 hobbies: read<input type="checkbox" name="read" id="阅读"><br>
 football <input type="checkbox" name="football" id="足球"><br>
