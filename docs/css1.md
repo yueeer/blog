@@ -173,13 +173,15 @@ color: 颜色属性值
 text-align属性用于设置元素内文本内容的水平对齐方式。\
 text-decoration属性规定添加到文本的修饰。可以给文本添加下划线、删除线、上划线等。\
 text-indent属性用来指定文本的第一行的缩进,通常是将段落的首行缩进(可以是负数)。em是一个相对单位，是当前元索1个文字的大小。\
-line-height属性用于设置行间的距离(行高=上间距+文本高度+下间距)。
+line-height属性用于设置行间的距离(行高=上间距+文本高度+下间距)。\
+text-shadow: 属性用于设置文本阴影，h-shadow水平阴影位置、v-shadow垂直阴影位置、blur虚实。
 ```css
 div {
     text-align :center/left/right;
     text-decoration: none/underline/overline/line-through;
     text-indent: 20px/2em;
     line-height: 26px;
+    text-shadow: h-shadow(px) V-shadow(px) blur(px) color ;
 }
 ```
 
