@@ -360,8 +360,3 @@ box-shadow: h-shadow v-shadow blur(虚实) spread(范围) color(一般有透明�
 <img src="https://i.loli.net/2020/08/24/TmMdWt5BOpUNZvX.png" width="400px">
 
 <font size="2">注：outside不可写</font>
-
-文字阴影
-```css
-text-shadow: h-shadow V-shadow blur color ;
-```
