@@ -73,7 +73,7 @@ target：_self为默认值，_blank为在新窗口中打开。
 
 <img src="https://i.loli.net/2020/08/23/AcQ8zkXaCj4YP7U.png"  width="600px" height="250px">
 
--  分别用: <thead>标签表格的头部区域、<tbody>标签表格的主体区域.
+-  分别用: `<thead>`标签表格的头部区域、`<tbody>`标签表格的主体区域.
 
 <img src="https://i.loli.net/2020/08/22/XkDJ8YeTquVdLEx.png"  width="300px" height="150px">
 
