@@ -20,7 +20,7 @@
 #### 2.3HTML页面引入favicon图标
 ```html
 <head>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="favicon.ico" >
 </head>
 ```
 
@@ -40,13 +40,13 @@ SEO (Search Engine Optimization )搜索引擎优化：是一种利用搜索引�
 ##### 3.1.2 description网站说明
 作为网站的总体业务和主题概括,多采用“我们.."、“我们提供.." 、"xxx网作为.."之类语句。
 ```html
-<meta name="description" content="..." />
+<meta name="description" content="..." >
 ```
 
 ##### 3.1.3 keywords关键字
 最好限制为6~8个关键词,关键词之间用英文逗号隔开
 ```html
-<meta name="keywords" content="..." />
+<meta name="keywords" content="..." >
 ```
 
 #### 3.2 LOGO SEO优化
