@@ -180,9 +180,9 @@ name: 用于指定表单的名称，以区分同一个页面中的多个表单�
 
 password: <input type="password"><br>
 
-hobbies: read<input type="checkbox" name="read" id="阅读"><br>
-football <input type="checkbox" name="football" id="足球"><br>
-dance <input type="checkbox" name="dance" id="跳舞"><br>
+hobbies: <br>read<input type="checkbox" name="hobby" value="阅读"><br>
+football <input type="checkbox" name="hobby" value="足球"><br>
+dance <input type="checkbox" name="hobby" value="跳舞"><br>
 ```
 
 <img src="https://i.loli.net/2020/08/22/HJchtGOUZyAYNqE.png"  width="500px" height="100px">
