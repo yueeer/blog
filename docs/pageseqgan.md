@@ -70,21 +70,21 @@ $$
 
 1.首先随机初始化Gθ网络和D网络参数
 
-2.预训练$G_θ$网络，目的是提高$G_θ$网络的搜索效率。
+2.预训练$G_θ$网络，目的是提高$G_θ$网络的搜索效率。\
 首先利用一个完美训练的神经网络target_lstm生成一些真实数据，利用这些数据通过MLE(最大似然估计)训练Generator。
 
-3.预训练Discriminator
+3.预训练Discriminator\
 将target_lstm生成的真实数据作为正样本，$G_θ$生成的数据作为负样本，用来通过最小化交叉熵来预训练一个二分类的神经网络。(具有highway的CNN)
 
-4.开始进行对抗训练，循环直到收敛。
-1）首先重复执行g次更新生成模型：
-(1)首先利用当前的$G_θ$生成batch_size大小sequence，
+4.开始进行对抗训练，循环直到收敛。\
+1）首先重复执行g次更新生成模型：\
+(1)首先利用当前的$G_θ$生成batch_size大小sequence，\
 (2)利用roll out网络进行MC search并采样句子喂给Discriminator进行评价返回
-$Q_{D_{\phi}}^{G_{\theta}}\left( s = Y_{1:t-1} ,a = y_t \right)$
+$Q_{D_{\phi}}^{G_{\theta}}\left( s = Y_{1:t-1} ,a = y_t \right)$\
 (3)基于下式更新Generator参数。
 $$
 \theta =\theta +\alpha _h\nabla _{\theta}J\left( \theta \right)
 $$
 
-2）重复执行d次更新判别模型
+2）重复执行d次更新判别模型\
 更优的G生成更好的负样本，和真实数据一起训练D。
