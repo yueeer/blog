@@ -15,21 +15,22 @@ contact me~
 
 ### 目录
 
-[1.What Do We Understand About Convolutional Networks?](page1.md)\
-[2.神经网络性能分析](page5.md)\
-[3.典型的信息度量方法](page7.md)\
-[4.深度学习的主要流程](page11.md)\
-[5.【转载】如何通俗地理解卷积](page12.md)\
-[6.seqGan总结](pageseqgan.md)\
-[7.Github & Git基础操作总结](page14.md)\
-[8.《百面机器学习》总结](a.md)\
-[9.《研究生完全求生手册》 总结](page8.md)\
-[10.《设计心理学》 总结](page10.md)\
-[11.《人人都是产品经理》 总结](pagerr.md)\
-[12.HTML+HTML5基础总结](html.md)\
-[13.CSS+CSS3基础总结](css1.md)\
-[14.网站制作](web.md)\
-[15.移动端布局](mobile.md)
+[What Do We Understand About Convolutional Networks?](page1.md)\
+[神经网络性能分析](page5.md)\
+[典型的信息度量方法](page7.md)\
+[深度学习的主要流程](page11.md)\
+[【转载】如何通俗地理解卷积](page12.md)\
+[seqGan总结](pageseqgan.md)\
+[从attention到transformer到BERT，精细总结](attention.md)\
+[Github & Git基础操作总结](page14.md)\
+[《百面机器学习》总结](a.md)\
+[《研究生完全求生手册》 总结](page8.md)\
+[《设计心理学》 总结](page10.md)\
+[《人人都是产品经理》 总结](pagerr.md)\
+[HTML+HTML5基础总结](html.md)\
+[CSS+CSS3基础总结](css1.md)\
+[网站制作](web.md)\
+[移动端布局](mobile.md)
 
 ### 友情链接
 

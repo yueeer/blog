@@ -32,6 +32,14 @@
 
   - [seqGan总结](pageseqgan.md)
 
+- 从attention到transformer到BERT，精细总结
+
+  - [attention](attention.md)
+
+  - [transformer](transformer.md)
+
+  - [BERT](BERT.md)
+
 - Github & Git基础操作总结
 
   - [Github & Git基础操作总结](page14.md)
