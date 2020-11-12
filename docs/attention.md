@@ -1,4 +1,5 @@
 <center><img src="https://i.loli.net/2020/05/17/cZIP7ARlLJtXwkv.png" width="20%"></center>
+
 ## 从attention到transformer到BERT，精细总结
 
 attention机制,transformer结构与BERT模型的关系如图所示
