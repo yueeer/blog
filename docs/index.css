@@ -461,7 +461,7 @@ body.sticky .sidebar-toggle {
 }
 
 body.close .sidebar {
-    transform: translateX(0px)
+    transform: translateX(-300px)
 }
 
 body.close .sidebar-toggle {
