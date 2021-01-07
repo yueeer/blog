@@ -46,7 +46,7 @@
 
 - Latex排版教程
 
-  -[Latex排版教程](latex.md)
+  - [Latex排版教程](latex.md)
 
 - 《百面机器学习》
 

@@ -15,14 +15,14 @@ BERT,全称**B**idirectional **E**ncoder **R**epresentation from **T**ransformer
 
 #### 1.结构
 
-<img src="http://s58.99854.men/2020/11/12/86345d123c1a86e09a959cf111a85903.png" width=550px>
+<img src="http://s63.555889.xyz/2021/01/08/f1b2a553bda4e114a344a48c008bd336.png" width=550px>
 
 对比OpenAI GPT(Generative pre-trained transformer)，BERT是双向的Transformer block连接；就像单向rnn和双向rnn的区别，直觉上来讲效果会好一些。\
 对比ELMo，虽然都是“双向”，但目标函数其实是不同的。ELMo独立训练处两个representation然后拼接。
 
 #### 2.输入
 
-<img src="http://s59.99854.men/2020/11/12/6f1e27f330d45e2392aa804c413fad47.png" width=550px>
+<img src="http://s62.555889.xyz/2021/01/08/c3066e8ff95eca1b0430eb632e5db275.png" width=550px>
 
 Token Embeddings是词向量\
 Segment Embeddings用来区别两种句子，因为预训练要做以两个句子为输入的分类任务\

@@ -23,9 +23,9 @@
 
 #### 2. 大纲目录
 
-`\section{}` 一级标题, `\subsection{}` 二级标题，`\subsubsection{}` 三级标题\\
-空行用于分割段落，`\\` 用于换行，`\par` 也用于换行  注意命令与文字之间用空格间隔\\
-`\chapter{}` 章节大纲\\
+`\section{}` 一级标题, `\subsection{}` 二级标题，`\subsubsection{}` 三级标题\
+空行用于分割段落，`\\` 用于换行，`\par` 也用于换行  注意命令与文字之间用空格间隔\
+`\chapter{}` 章节大纲\
 `\tableofcentonts` 生成目录
 
 #### 3. 文字设置
@@ -104,6 +104,7 @@ As far as I'm concerned, Xiamen is very clean and pretty. In that city, we can e
 {\Huge hello}
 ```
 <img src="https://i.loli.net/2021/01/07/rBqynTmDHOF3Law.png" width="420" height="260" align="center">
+
 ###### 3.4.2中文
 ```latex
 \subsection{中文字号}
@@ -111,6 +112,7 @@ As far as I'm concerned, Xiamen is very clean and pretty. In that city, we can e
 \zihao{5} 你好
 ```
 <img src="https://i.loli.net/2021/01/07/v4SyfTIVB6rxphm.png" width="320" height="280" align="center">
+
 #### 4. 特殊字符
 
 空白字符
@@ -299,6 +301,7 @@ a\enspace b % 0.5em
 \]
 ```
 <img src="https://i.loli.net/2021/01/07/sLNUxYkBWQt8iFn.png" width="400" height="250" align="center">
+
 ```latex
 这是行内小矩阵
 \begin{math}
