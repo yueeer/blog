@@ -24,7 +24,7 @@
 #### 2. 大纲目录
 
 `\section{}` 一级标题, `\subsection{}` 二级标题，`\subsubsection{}` 三级标题\
-空行用于分割段落，`\\` 用于换行，`\par` 也用于换行  注意命令与文字之间用空格间隔\
+空行和`\par`用于分割段落，`\\` 用于换行，`\par` 也用于换行,`\newpage`和`\clearpage`用于分页，注意命令与文字之间用空格间隔\
 `\chapter{}` 章节大纲\
 `\tableofcentonts` 生成目录
 
@@ -118,7 +118,7 @@ As far as I'm concerned, Xiamen is very clean and pretty. In that city, we can e
 空白字符
 - 英文多个空格，当作一个空格处理
 - 中英文混合时，自动产生空格间隔
-- 中文空格无效
+- 中文空格`~`
 ```latex
 a\quad b % 1em(当前字体一个M的大小)
 a\qquad b % 2em
@@ -175,6 +175,10 @@ a\enspace b % 0.5em
 `p`：独立的一页（page）-浮动页面
 
 #### 6. 表格插入
+可以通过使用<font color=purple>Excel2LaTeX</font>工具，将excel表格快速转化为latex代码。打开Excel后，双击“Excel2LaTex.xla”，选择“启用宏”即可加载。
+
+<img src="https://i.loli.net/2021/01/08/UueH6htK4AnoylE.png" width="400" height="200" align="center">
+
 ##### 6.1普通插表
 设置宽度：p{宽度值},内容超过宽度时，自动换行
 ```latex
@@ -227,6 +231,43 @@ a\enspace b % 0.5em
 \end{table}%
 ```
 <img src="https://i.loli.net/2021/01/07/ylSQAGHZfs1MVuY.png" width="280" height="260" align="center">
+
+##### 6.3长表格处理
+如果表格内容超过一页，就必须对表格内容进行拆分。
+```latex
+\usepackage{longtable}
+\begin{center}
+	\begin{longtable}{|l|l|l|}
+		\caption[Feasible triples for a highly variable Grid]{Feasible triples for
+			highly variable Grid, MLMMH.} \label{grid_mlmmh} \\
+
+		\hline \multicolumn{1}{|c|}{\textbf{Time (s)}} & \multicolumn{1}{c|}{\textbf{Triple chosen}} & \multicolumn{1}{c|}{\textbf{Other feasible triples}} \\ \hline
+		\endfirsthead
+
+		\multicolumn{3}{c}%
+		{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+		\hline \multicolumn{1}{|c|}{\textbf{Time (s)}} &
+		\multicolumn{1}{c|}{\textbf{Triple chosen}} &
+		\multicolumn{1}{c|}{\textbf{Other feasible triples}} \\ \hline
+		\endhead
+
+		\hline \multicolumn{3}{|r|}{{Continued on next page}} \\ \hline
+		\endfoot
+
+		\hline \hline
+		\endlastfoot
+
+		0 & (1, 11, 13725) & (1, 12, 10980), (1, 13, 8235), (2, 2, 0), (3, 1, 0) \\
+		2745 & (1, 12, 10980) & (1, 13, 8235), (2, 2, 0), (2, 3, 0), (3, 1, 0) \\
+	  ...
+		101565 & (1, 13, 13725) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+		104310 & (1, 13, 16470) & (2, 2, 2745), (2, 3, 0), (3, 1, 0) \\
+	\end{longtable}
+\end{center}
+```
+注意：需编译二到三次才能得到
+
+<img src="https://i.loli.net/2021/01/08/yORlbNmDFQ9Cr5j.png" width="320" height="560" align="center">
 
 #### 7.公式插入
 ##### 7.1单行公式
@@ -395,6 +436,13 @@ a\enspace b % 0.5em
 %设置段落间距
 %\addtolength{\parskip}{宽度}
 ```
+
+6.文字对齐
+`\begin{flushleft}...\end{flushleft}` 左对齐\
+`\begin{center}...\end{center}`居中\
+`\begin{flushright}...\end{flushright}`右对齐
+
+综合示例
 ```latex
 %导言区
 \usepackage{geometry} %导入版面设置的宏包
@@ -439,3 +487,12 @@ a\enspace b % 0.5em
 
 \bibliography{test.bib} %在文字末尾使用
 ```
+**Endnote导出Bib文件**\
+1、在endnote中选中你要导出的文献，选择“edit-output style-Open style manager..” 在弹出来的界面中找到有name和category的两列的表格中一列，选择name那一列，然后按键盘b，往下翻，直到看到 BibTex Export那一项，然后勾上。这样就选择了输出bibtex输出方式。\
+2、直接关掉刚才那个界面，注意不要关掉整个界面，关掉刚才弹出的那个即可。选择所有要导出的文献，然后在file-export，进入导出界 面。在界面中选择输出txt格式，在output style中选择bibtex export，然后给个名字，保存就ok。
+#### 10.自定义
+##### 10.1自定义命令
+`\newcommand {name}[num]{definition}`，`name`是想要定义的命令的名称，`num`，可选，用于指定命令所需参数的数目，`definition`，命令的定义，也是要执行的操作\
+对已有命令进行重写，需换成`\renewcommand`
+##### 10.2自定义环境
+`\(re)newenvironment{name}[num]{before}{after}`，`name`是想要定义的环境的名称，`num`，可选，所需参数数目，`before`中提供的内容,将在`begin{name}`命令包含的文本之前处理，`after`中提供的内容,将在包含的文本之后，`\end{name}` 的前面处理
