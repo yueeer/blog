@@ -20,7 +20,7 @@ contact me~
 [典型的信息度量方法](page7.md)\
 [深度学习的主要流程](deep_learning/page11.md)\
 [【转载】如何通俗地理解卷积](deep_learning/page12.md)\
-[综述：基于深度学习的文本分类](deep_learning/DP_TC.md)\
+[综述：基于深度学习的文本分类](deep_learning/DL_TC.md)\
 [seqGan总结](pageseqgan.md)\
 [从attention到transformer到BERT，精细总结](bert/attention.md)\
 [Github & Git基础操作总结](page14.md)\
