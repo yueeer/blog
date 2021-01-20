@@ -28,6 +28,11 @@
 
   - [【转载】如何通俗地理解卷积](deep_learning/page12.md)
 
+- 综述：基于深度学习的文本分类
+
+  - [综述：基于深度学习的文本分类（一）](deep_learning/DP_TC.md)
+  - [综述：基于深度学习的文本分类（二）](deep_learning/DP_TC2.md)
+
 - seqGan总结
 
   - [seqGan总结](pageseqgan.md)
