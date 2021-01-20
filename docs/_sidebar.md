@@ -31,6 +31,7 @@
 - 综述：基于深度学习的文本分类
 
   - [综述：基于深度学习的文本分类（一）](deep_learning/DL_TC.md)
+  
   - [综述：基于深度学习的文本分类（二）](deep_learning/DL_TC2.md)
 
 - seqGan总结
