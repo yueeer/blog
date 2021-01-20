@@ -38,7 +38,8 @@ NLI也被称为识别文本涵recognizing textual entailment(RTE)，它预测一
 
 #### 2.用于文本分类的深度学习模型
 
-本节主要介绍\
+本节主要介绍
+
 - 基于前馈网络的模型feed-forward networks，该模型将文本视为一袋单词（2.1）。
 - 基于RNN的模型，该模型将文本视为单词序列，旨在捕获单词相关性和文本结构（2.2）。
 - 基于CNN的模型，经过训练可以识别文本中的模式（例如关键短语）进行分类（2.3）
@@ -102,6 +103,7 @@ Liu等人对Kim-CNN的架构进行了两次修改.首先，采用动态最大池
 受到VGG和ResNets的启发，Conneau等人提出了一种<font color="darkblue">Very Deep CNN（VDCNN）</font>模型用于文本处理。它直接在字符级别上运行，并且仅使用小的卷积和池化操作。这项研究表明，VDCNN的性能随深度而增加。Le等表明，当文本输入表示为字符序列时，深层模型的确优于浅层模型。但是，一个简单的浅层和广域网的性能优于带有单词输入的深层模型。Guo等研究了词嵌入的影响，并提出通过多通道CNN模型使用加权词嵌入。Zhang等研究了不同词嵌入方法和池化机制的影响，发现使用非静态word2vec和GloVe优于one-hot向量，并且最大池化始终优于其他池化方法。
 
 还有其他基于cnn的有趣模型。
+
 <font size=2>
 Natural language inference by tree-based convolution and heuristic matching.一种基于树的CNN来捕捉句子级语义。\
 Text matching as image recognition.将文本匹配作为图像识别任务，使用多层cnn识别显著的n-gram模式。\
@@ -114,7 +116,7 @@ cnn通过使用连续层的卷积和池化对图像或文本进行分类。尽�
 
 近来，胶囊网络已经被应用于文本分类，其中胶囊适于将句子或文档表示为向量。 W. Zhao等提出了一种基于CapsNets变体的文本分类模型。 该模型由四层组成：（1）n-gram卷积层，（2）胶囊层，（3）卷积胶囊层，以及（4）完全连接的胶囊层。 作者尝试了三种策略来稳定动态路由过程，以减轻包含背景信息（例如停用词或与任何文档类别无关的词）的噪声的干扰。 他们还探索了两种胶囊架构，如图所示。分别为Capsule-A和Capsule-B。 Capsule-B使用三个并行网络，并在n-gram卷积层中使用具有不同窗口大小的过滤器，以学习更全面的文本表示形式。 CapsNet-B在实验中表现更好。
 
-<img src="http://s61.555889.xyz/2021/01/20/f47bc1c66e475113fb6ae6ed0f8b5d86.png" height="200" width="350">
+<img src="https://i.loli.net/2021/01/20/64o7Jd3qCVBfUKY.png" height="200" width="350">
 
 ##### 2.5 Models with Attention Mechanism
 
@@ -126,7 +128,7 @@ Shen等提出了一种定向的自我注意网络，用于无RNN/CNN的语言理
 
 注意模型也广泛应用于成对排序或匹配任务。 Santos等提出了一种双向注意机制，称为<font color='darkblue'>注意力集中（AP）</font>，用于成对排名。 AP使合并层能够了解当前的输入对，以使来自两个输入项的信息可以直接影响彼此表示的计算。除了学习输入对的表示之外，AP联合学习该对投影段上的相似性度量，然后为每个输入导出相应的注意力向量以指导合并。 AP是独立于底层表示学习的通用框架，并且可以应用于CNN和RNN，如图8（a）所示。 Wang等将文本分类视为标签-单词匹配问题,作者介绍了一种注意力框架，该框架通过余弦相似性来度量文本序列和标签之间嵌入的兼容性，如图8（b）所示。
 
-<img src="http://m.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5gxISEvA*561WqvtDAaEusHXasmrWRMkW2FfYz6E14277zxZ1O9uz0PV.bSZCm4mL8hK4q9TDKXnHY76kPVjiN8!/b&bo=7wLaAAAAAAADBxU!&rf=viewer_4" height="180" width="550">
+<img src="https://i.loli.net/2021/01/20/LlUnjyr7zcQ2ftC.png" height="180" width="550">
 
 <font size=2>
 
@@ -147,7 +149,7 @@ Enhancing sentence embedding with generalized pooling.探讨了增强句子嵌�
 
 Munkhdalai和Yu提出了一种记忆增强的神经网络，称为<font color="darkblue">神经语义编码器(NSE)</font>，用于文本分类和QA。NSE配备了一个可变大小的编码存储器，随着时间的推移而演化，并通过读、写和写操作来保持对输入序列的理解。
 
-<img src="http://a1.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5nkSgElmfwMKdA3EGNt6W6Wd4soGNnzK3OvNoYGPKFUYjEAdhIP7x*WVF4xdKynUM6FUL*fNFpLveEDsTtXztas!/b&ek=1&kp=1&pt=0&bo=QQGvAAAAAAADF90!&tl=1&vuin=2927172560&tm=1611144000&sce=60-2-2&rf=viewer_4" height="150" width="200">
+<img src="https://i.loli.net/2021/01/20/n5vrM3AwlcZxjXQ.png" height="150" width="200">
 
 Weston等人为综合QA任务设计了一个端到端的记忆网络，其中一系列语句(记忆条目)被提供给模型作为问题的支持事实。这个模型学习每次从记忆中检索一个条目。Sukhbaatar等人扩展了这项工作，提出了端到端记忆网络，其中记忆条目通过注意机制以一种软方式检索，从而实现了端到端训练。他们表明，通过多次测试，该模型能够检索和推理几个支持事实来回答一个特定的问题。
 
@@ -167,7 +169,7 @@ PLM可以分为两类，即**自回归预训练语言模型**和**自编码语�
 
 <font color="darkblue">统一语言模型（UniLM）</font>旨在解决自然语言理解和生成任务。 UniLM已使用三种类型的语言建模任务进行了预训练：单向，双向和序列到序列的预测。通过使用共享的Transformer网络并利用特定的self-attention mask来控制预测条件所处的环境，可以实现统一建模。据报道，UniLM的第二版性能大大优于以前的PLM，包括OpenGPT-2，XLNet，BERT及其变体。
 
-<img src="http://m.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5vCNIXRNI46.NaRFn*hPBY5Wzn1ryfxDEw6nr5PtPHH66u*V8SIYOicRAPUkwnrOzmIZpKYCQ1kQjxhg9VdLtsI!/b&bo=JAJqAQAAAAADB28!&rf=viewer_4" height="250" width="420">
+<img src="https://i.loli.net/2021/01/20/Q96zOleJMtK5F72.png" height="250" width="420">
 
 Raffel等提出了一个统一的基于Transformer的框架，该框架将许多NLP问题转换为文本到文本格式。他们还进行了系统的研究，比较了数十种语言理解任务的预训练目标，体系结构，未标记的数据集，微调方法和其他因素。
 
@@ -179,7 +181,7 @@ Raffel等提出了一个统一的基于Transformer的框架，该框架将许多
 
 GNNs在自然语言处理中的典型应用是文本分类。gnn利用文档或单词之间的相互关系来推断文档标签。H. Peng提出了一种基于图CNN的深度学习模型，首先将文本转换为词图，然后使用图卷积运算对词图进行卷积。实验表明，文本的词表示图具有捕获非连续语义和远距离语义的优势，CNN模型具有学习不同层次语义的优势。
 
-<img src="http://m.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5gSIYkdBndMJKvD.1EqlqLgZuPe*aN4E8wr3ZE2HhBkwtyNZxmbO*zLx3FWNYyyUgzftn5K8hUS51XbzxcgnjE4!/b&bo=GgK9AAAAAAADB4c!&rf=viewer_4" height="180" width="400">
+<img src="https://i.loli.net/2021/01/20/msHjReOn3EuIo2G.png" height="180" width="400">
 
 H. Peng提出了一种基于层次分类感知和注意图的胶囊CNN文本分类模型。该模型的一个独特之处是使用了类标签之间的层次关系，在以前的方法中，这些关系被认为是独立的。具体来说，为了利用这种关系，作者开发了一种层次分类嵌入方法来学习它们的表示，并通过结合标签表示相似度定义了一种新的加权边缘损失。L. Yao基于单词共现和文档单词关系为语料库构建了一个单一的文本图，然后为该语料库学习了一个文本图卷积网络（Text GCN）,然后在已知文档类标签的监督下，共同学习word和document的嵌入。
 
@@ -191,7 +193,9 @@ Siamese neural networks（S2Nets）及其DNN变体（称为深度结构语义模
 
 DSSM（或S2Net）由一对DNNs、f1和f2组成，它们将输入x和y映射到公共低维语义空间中的对应向量中。然后用两个向量的余弦距离来度量x和y的相似性。虽然s2net假设f1和f2共享相同的体系结构甚至相同的参数，但是在DSSMs中，f1和f2可以根据x和y的不同而具有不同的体系结构。例如，要计算图像-文本对的相似性，f1可以是深度CNN和f2是RNN或MLP。根据（x,y）的定义，这些模型可以应用于各种NLP任务。 例如，（x,y）可以是用于查询文档排名的查询文档对，也可以是QA中的问题-答案对，依此类推。 通常使用成对的秩损失来优化模型参数.
 
-<img src="http://m.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5jHisMn68cYH11N9AUVuZ*pVuLWN6u4vPNb6inYKTPdHpgKJB8z8VGVJ4hZG5NdiQGLkEukdXMk6vrEGh7t2Lv8!/b&bo=8QCmAAAAAAADB3U!&rf=viewer_4" height="160" width="200">
+<img src="https://i.loli.net/2021/01/20/cDkqg7YPiEu6WMB.png" height="160" width="200">
+
+其他：
 
 <font size=2>
 Learning Text Similarity with Siamese Recurrent Networks提出了一个相似的模型，该模型对f1和f2使用字符级Bi-LSTMs，并使用余弦函数计算相似性。\
@@ -209,7 +213,7 @@ S2Nets和DSSM已被广泛用于质量检查。Together we stand: Siamese network
 
 Zhu等提出了一种<font color="darkblue">卷积LSTM (C-LSTM)</font>网络。C-LSTM利用一个CNN提取一组高层短语(n-gram)表示，将其输入LSTM网络获得句子表示。同样，Zhang等提出了一种用于文档建模的<font color="darkblue">依赖敏感CNN (DSCNN)</font>。DSCNN是一个层次模型，LSTM学习句子向量，这些句子向量被馈给卷积层和最大池化层，以生成文档表示。
 
-<img src="http://m.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5grg6Zyh5phGz85*tyFptngOotQ5YcgjhQIVB0Gu.iJ4yZTztFRuJXO5pQUdfKhaclzIY8tQ9xmug9lwgclnrzM!/b&bo=tQL0AAAAAAADB2E!&rf=viewer_4" height="200" width="600">
+<img src="https://i.loli.net/2021/01/20/hZC2RuLWd3ajlOY.png" height="200" width="600">
 
 <font size=2>
 Ensemble application of convolutional and recurrent neural networks for multi-label text categorization.通过CNN-RNN模型执行多标签文本分类，该模型能够捕获全局和局部文本语义，因此，在具有可处理的计算复杂性的同时，能够建模高阶标签相关性。\
@@ -225,7 +229,7 @@ Stochastic answer networks for machine reading comprehension.提出了一种用�
 
 Kim等在字符上采用了带有字符的CNN和LSTM的highway networks。第一层执行字符嵌入的查找，然后进行卷积和最大池操作以获取单词的固定尺寸表示形式，并将其提供给 highway networks。 highway networks的输出用作多层LSTM的输入。最后，将仿射变换后跟一个softmax应用于LSTM的隐藏表示，以获取下一个单词的分布。其他基于 highway networks的混合模型包括循环 highway networks和带 highway networks的RNN。
 
-<img src="http://m.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5sGeeEgsUybZALRW9fzh0CASoZbkgj9HtqESBpVRXaC2MDal5xtWmUTVX369XfN**Y0vHU3CHIt6sOcXgY0uB30!/b&bo=8wEuAQAAAAADB*8!&rf=viewer_4" height="180" width="450">
+<img src="https://i.loli.net/2021/01/20/X2LIUzJY6VgNdyn.png" height="180" width="450">
 
 ##### 2.11 Beyond Supervised Learning
 ###### Unsupervised Learning using Autoencoders使用自动编码器的无监督学习
@@ -234,9 +238,9 @@ Kim等在字符上采用了带有字符的CNN和LSTM的highway networks。第一
 
 Kiros提出了一种无监督学习通用句子编码器的跳跃思维模型。训练编码器-解码器模型来重建编码句子的周围句子。A.M.Dai and Q.V.Le研究了序列自动编码器在句子编码中的应用，该编码器将输入序列读入向量并再次预测输入。他们表明，在一个大的无监督语料库上进行预训练的句子编码比只进行预训练的单词嵌入产生更好的准确性。M. Zhang提出了一种平均最大注意自动编码器，该编码器利用多头自注意机制重构输入序列。在编码中使用mean-max策略，在编码过程中，对隐藏向量应用mean和max池操作来捕获输入的不同信息。
 
-当自动编码器学习输入的压缩表示时，变分自动编码器（VAE）学习表示数据的分布，可以将其视为自动编码器的正则化版本。由于VAE学会了对数据进行建模，因此我们可以轻松地从分布中进行抽样，以生成新的输入数据样本（例如，新的句子）。Miao等将VAE框架扩展到文本，并提出了用于文档建模的<font color="blue">神经变异文档模型（NVDM）</font>和用于质量保证的<font color="blue">神经答案选择模型（NASM）</font>。NVDM使用MLP编码器将文档映射到连续的语义表示。NASM使用LSTM和潜在的随机注意机制对问题-答案对的语义建模，并预测它们的相关性。注意模型关注与问题语义紧密相关的答案短语，并通过潜在分布建模，从而使模型能够处理任务中固有的歧义。鲍曼等提出了一种基于RNN的VAE语言模型，此模型合并了整个句子的分布式潜在表示，从而可以显式地建模句子的整体属性，例如样式，主题和高级句法特征。
+当自动编码器学习输入的压缩表示时，变分自动编码器（VAE）学习表示数据的分布，可以将其视为自动编码器的正则化版本。由于VAE学会了对数据进行建模，因此我们可以轻松地从分布中进行抽样，以生成新的输入数据样本（例如，新的句子）。Miao等将VAE框架扩展到文本，并提出了用于文档建模的<font color="darkblue">神经变异文档模型（NVDM）</font>和用于质量保证的<font color="darkblue">神经答案选择模型（NASM）</font>。NVDM使用MLP编码器将文档映射到连续的语义表示。NASM使用LSTM和潜在的随机注意机制对问题-答案对的语义建模，并预测它们的相关性。注意模型关注与问题语义紧密相关的答案短语，并通过潜在分布建模，从而使模型能够处理任务中固有的歧义。鲍曼等提出了一种基于RNN的VAE语言模型，此模型合并了整个句子的分布式潜在表示，从而可以显式地建模句子的整体属性，例如样式，主题和高级句法特征。
 
-<img src="http://m.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5j4Uc3osnj9FLRggQxhGClT4Y5MDVF3b2csvIO3*jQSvDQ08ISV9kFY1WjVM7BfZy0S2UJ8pHhVAIpiZJlnc8*4!/b&bo=.gKyAAAAAAADB2g!&rf=viewer_4" height="150" width="550">
+<img src="https://i.loli.net/2021/01/20/HNpLRdPg3fscwBb.png" height="150" width="550">
 
 ###### Adversarial Training对抗训练
 
@@ -250,4 +254,4 @@ Miyato等人将对抗式和虚拟对抗式训练扩展到监督和半监督文�
 
 Shen等人使用<font color="darkblue">hard attention模型</font>选择输入序列的关键字标记子集进行文本分类。hard attention模型可以被看作是一个agent，它采取行动决定是否选择一个token。遍历整个文本序列后，它会收到一个分类损失，可以作为训练agent的奖励。X. Liu提出了一种将文本分类建模为顺序决策过程的神经agent。受人类文本阅读认知过程的启发，智能体按顺序扫描一段文本，并在希望的时间做出分类决策。分类结果和何时进行分类都是决策过程的一部分，由经过RL训练的策略控制。Shen等人提出了<font color="darkblue">多步算法机器阅读理解推理网络(ReasoNet)</font>。ReasoNets通过多个步骤来推断查询、文档和答案之间的关系。与在推理过程中使用固定数量的步骤不同，ReasoNets引入了一个终止状态来放松对推理步骤的限制。使用RL, ReasoNets可以动态决定是在消化了中间结果后继续理解过程，还是在认为现有信息足够产生时终止阅读.Y. Li将RL、GANs和RNNs相结合，建立了一种新的<font color="darkblue">类别句子生成对抗网络模型（CS-GAN）</font>，该模型能够生成扩展原始数据集的类别句子，并在有监督的训练中提高其泛化能力。T. Zhang提出了一种基于RL的文本分类学习结构化表示方法。他们提出了两个基于LSTM的模型。第一个选项只选择输入文本中与任务相关的重要单词。另一个发现句子的短语结构。使用这两个模型的结构发现被表示为由策略网络policy network引导的顺序决策过程，策略网络在每个步骤决定使用哪个模型，利用策略梯度优化策略网
 
-<img src="http://m.qpic.cn/psc?/V54btInj4CHB1n4dIKBz2g0jGT2xiGfd/ruAMsa53pVQWN7FLK88i5l0hyoHke86hhAfISfUayglGJE0pMdMTNZZSdlumgbSBaoQDvjfa5Hm09u5BkEsxFBzW2PkQqCzD1r95L0eYdTE!/b&bo=qgKKAAAAAAADBwA!&rf=viewer_4" height="100" width="480">
+<img src="https://i.loli.net/2021/01/20/2IxKWtJM9f3Cqyc.png" height="100" width="480">
