@@ -31,7 +31,7 @@
 - 综述：基于深度学习的文本分类
 
   - [综述：基于深度学习的文本分类（一）](deep_learning/DL_TC.md)
-  
+
   - [综述：基于深度学习的文本分类（二）](deep_learning/DL_TC2.md)
 
 - seqGan总结
@@ -45,6 +45,10 @@
   - [transformer](bert/transformer.md)
 
   - [BERT](bert/BERT.md)
+
+- 更有效率的模型:ELECTRA
+
+  - [更有效率的模型:ELECTRA](ELECTRA.md)
 
 - BERT改进版？更强的NLP模型
 

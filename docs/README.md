@@ -23,6 +23,7 @@ contact me~
 [综述：基于深度学习的文本分类](deep_learning/DL_TC.md)\
 [seqGan总结](pageseqgan.md)\
 [从attention到transformer到BERT，精细总结](bert/attention.md)\
+[更有效率的模型:ELECTRA](ELECTRA.md)\
 [BERT改进版？更强的NLP模型](XLNet.md)\
 [Github & Git基础操作总结](page14.md)\
 [Latex排版教程](latex.md)\
