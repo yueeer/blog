@@ -37,6 +37,7 @@ BERT是随机的，比如句子“我想吃苹果”，BERT可以mask为“我�
   - 对于每个token，discriminator都会进行一个二分类，最后获得loss
 
 与GAN的区别：
+
 <img src="https://i.loli.net/2021/02/04/cf6rWxuwKdIbpqD.png" height="160" width="600">
 
 #### 模型优点
@@ -53,8 +54,8 @@ $$
 因为判别器的任务相对来说容易些，RTD loss相对MLM loss会很小，因此加上一个系数，作者训练时使用了50。
 
 #### 总结
-1.提出了新的模型预训练的框架，采用generator和discriminator的结合方式，但又不同于GAN
-将Masked Language Model的方式改为了replaced token detection
-2.因为masked language model 能有效地学习到context的信息，所以能很好地学习embedding，所以使用了weight sharing的方式将generator的embedding的信息共享给discriminator
-3.该模型采用了小的generator以及discriminator共同训练，两者loss相加，使得discriminator的学习难度逐渐地提升，学习到更难的token（plausible tokens）
-4.模型在fine-tuning 的时候，丢弃generator，只使用discrinator
+1.提出了新的模型预训练的框架，采用generator和discriminator的结合方式，但又不同于GAN\
+2.将Masked Language Model的方式改为了replaced token detection\
+3.因为masked language model 能有效地学习到context的信息，所以能很好地学习embedding，所以使用了weight sharing的方式将generator的embedding的信息共享给discriminator\
+4.该模型采用了小的generator以及discriminator共同训练，两者loss相加，使得discriminator的学习难度逐渐地提升，学习到更难的token（plausible tokens）\
+5.模型在fine-tuning 的时候，丢弃generator，只使用discrinator
