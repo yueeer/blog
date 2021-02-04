@@ -45,6 +45,10 @@
 
   - [BERT](bert/BERT.md)
 
+- BERT改进版？更强的NLP模型
+
+  - [BERT改进版？更强的NLP模型](XLNet.md)
+
 - Github & Git基础操作总结
 
   - [Github & Git基础操作总结](page14.md)

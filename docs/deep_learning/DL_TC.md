@@ -197,8 +197,7 @@ DSSM（或S2Net）由一对DNNs、f1和f2组成，它们将输入x和y映射到�
 
 其他：
 
-<font size=2>
-Learning Text Similarity with Siamese Recurrent Networks提出了一个相似的模型，该模型对f1和f2使用字符级Bi-LSTMs，并使用余弦函数计算相似性。\
+<font size=2>Learning Text Similarity with Siamese Recurrent Networks提出了一个相似的模型，该模型对f1和f2使用字符级Bi-LSTMs，并使用余弦函数计算相似性。\
 除RNNs外，s2net中还使用BOW模型和CNNs来表示句子。\
 Multi-perspective sentence similarity modeling with convolutional neural networks.提出了一种利用CNNs对多视角句子相似度进行建模的S2Net。\
 Siamese CBOW: Optimizing word embeddings for sentence representations.提出了一个连体CBOW模型，该模型通过平均句子的词嵌入来形成句子向量表示，并将句子相似度计算为句子向量之间的余弦相似度。\
@@ -215,8 +214,7 @@ Zhu等提出了一种<font color="darkblue">卷积LSTM (C-LSTM)</font>网络。C
 
 <img src="https://i.loli.net/2021/01/20/hZC2RuLWd3ajlOY.png" height="200" width="600">
 
-<font size=2>
-Ensemble application of convolutional and recurrent neural networks for multi-label text categorization.通过CNN-RNN模型执行多标签文本分类，该模型能够捕获全局和局部文本语义，因此，在具有可处理的计算复杂性的同时，能够建模高阶标签相关性。\
+<font size=2>Ensemble application of convolutional and recurrent neural networks for multi-label text categorization.通过CNN-RNN模型执行多标签文本分类，该模型能够捕获全局和局部文本语义，因此，在具有可处理的计算复杂性的同时，能够建模高阶标签相关性。\
 Document modeling with gated recurrent neural network for sentiment classification.使用CNN学习句子表示，使用门控RNN学习编码句子之间内在关系的文档表示。\
 Efficient character-level document classification by combining convolution and recurrent layers.将文档视为字符序列，而不是单词，并建议使用基于字符的卷积和递归层进行文档编码。与字级模型相比，该模型在参数较少的情况下取得了可比的性能。\
 Recurrent convolutional neural networks for text classification.应用了一种循环结构来捕获用于学习单词表示的远程上下文依赖。 为了减少噪音，采用了最大合并来自动选择仅对文本分类任务至关重要的显着单词。\
