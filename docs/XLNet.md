@@ -16,8 +16,8 @@
 <font color="purple">优点其实跟下游NLP任务有关，比如生成类NLP任务，比如文本摘要，机器翻译等，在实际生成内容的时候，就是从左向右的，自回归语言模型天然匹配这个过程。而Bert这种在生成类NLP任务中，就面临训练过程和应用过程不一致的问题，导致生成类的NLP任务到目前为止都做不太好。</font>
 - 自编码语言模型（Autoencoder LM）
 
-Bert在输入X中随机Mask掉一部分单词，然后预训练过程的主要任务之一是根据上下文单词来预测这些被Mask掉的单词，这是典型的Denoising Autoencoder(去噪自动编码器，DAE)的思路。那些被Mask掉的单词就是在输入侧加入的所谓噪音。
-<font color="darkblue">缺点主要在输入侧引入`[Mask]`标记，导致预训练阶段和Fine-tuning阶段不一致的问题。</font>
+Bert在输入X中随机Mask掉一部分单词，然后预训练过程的主要任务之一是根据上下文单词来预测这些被Mask掉的单词，这是典型的Denoising Autoencoder(去噪自动编码器，DAE)的思路。那些被Mask掉的单词就是在输入侧加入的所谓噪音。\
+<font color="darkblue">缺点主要在输入侧引入`[Mask]`标记，导致预训练阶段和Fine-tuning阶段不一致的问题。</font>\
 <font color="purple">优点是它能比较自然地融入双向语言模型，同时看到被预测单词的上文和下文。</font>
 
 XLNet的出发点就是：能否融合自回归LM和DAE LM两者的优点。就是说如果站在自回归LM的角度，如何引入和双向语言模型等价的效果；如果站在DAE LM的角度看，如何抛掉表面的那个`[Mask]`标记，让预训练和Fine-tuning保持一致。另外，Bert在预训练阶段假设句子中多个单词被Mask掉，这些被Mask掉的单词之间没有任何关系，是条件独立的，而有时候这些单词之间是有关系的，XLNet则考虑了这种关系。
